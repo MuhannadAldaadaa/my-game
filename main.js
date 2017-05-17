@@ -16,7 +16,7 @@ function monsters() {
 
 	} else if (choice1 === "PAY"){
         var choice2 = prumpt("Are you rich?","Yes or No").toUpperCase();
-		if (choice2 === "Yes");{
+		if (choice2 === "Yes"){
 			alert("Well I guess you can afford 100€!");
 		} else if (choice2 === "NO"){
 			alert("toobad! It's human for dinner!");
